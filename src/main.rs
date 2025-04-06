@@ -53,7 +53,7 @@ mod tests {
         // t(x) = x + 1
         let t_coeffs = vec![Fr::from(1), Fr::from(1)];
 
-        // p(x) = x^2 + 3x + 5 → no divisible por (x + 1)
+        // p(x) = x^2 + 3x + 5 → no divisible by (x + 1)
         let p_coeffs = vec![Fr::from(5), Fr::from(3), Fr::from(1)];
 
         let t_poly = DensePolynomial::from_coefficients_slice(&t_coeffs);
